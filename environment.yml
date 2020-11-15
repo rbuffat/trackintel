@@ -1,44 +1,19 @@
-name: example-environment
+name: trackintel
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - numpy
-  - matplotlib
-  - pandas
-  - geopandas
-  - scikit-learn
-  - networkx 
-  - pint 
-  - geoalchemy2 
-  - osmnx 
-  - psycopg2
-  - gdal
-  - imageio
-  - pip:
-    - area
-    - bokeh
-    - cython
-    - dask-rasterio
-    - descartes
-    - folium
-    - geeup
-    - geojsonio
-    - geopandas
-    - geoplot
-    - geopy
-    - gpdvega
-    - h5py
-    - peartree
-    - plotly
-    - pygdal
-    - pygis
-    - pymap3d
-    - pyModis
-    - pysal
-    - pycsw
-    - pywps
-    - rasterio
-    - rasterstats
-    - requests
-    - rtree
-    - seaborn
+- numpy
+- matplotlib
+- pandas
+- geopandas
+- scikit-learn
+- networkx 
+- pint
+- pip 
+- geoalchemy2 
+- osmnx 
+- psycopg2
+- imageio
+- pip:
+  - simplification
